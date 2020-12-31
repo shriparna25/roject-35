@@ -15,7 +15,7 @@ function preload()
 }
 
 function setup() {
-  createCanvas(500, 500);
+  createCanvas(1000, 500);
   
   database = firebase.database();
 
@@ -33,7 +33,7 @@ feed.position(700,95);
 feed.mousePressed(feedDog);
 
 addFood=createButton("ADD THE FOOD");
-addFood.position(700,95);
+addFood.position(800,95);
 addFood.mousePressed(addFoods);
 
 
